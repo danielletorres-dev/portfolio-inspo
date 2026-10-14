@@ -8,7 +8,7 @@
     --lw-display: "Archivo", "Helvetica Neue", Arial, sans-serif;
     --lw-gap: 24px;             /* space between columns */
     --lw-row-gap: 48px;         /* space between rows */
-    --lw-title-max: 900px;      /* widest the title image gets */
+    --lw-title-max: 630px;      /* widest the title image gets */
     --lw-min: 280px;            /* narrowest a column gets before the grid drops a column */
     --lw-ink: currentColor;
     --lw-muted: rgba(255,255,255,.6);
@@ -24,9 +24,9 @@
     font-size: clamp(44px, 9vw, 132px) !important; line-height: .88 !important; letter-spacing: -0.015em;
     margin: 0 0 36px !important; padding: 0; color: #fff !important;
   }
-  #link-wall .lw-title img, #link-wall .lw-title svg { display: block; width: 100%; max-width: var(--lw-title-max); height: auto; mix-blend-mode: screen; }
+  #link-wall .lw-title img, #link-wall .lw-title svg { display: block; width: 100%; max-width: var(--lw-title-max); height: auto; margin: 0 auto; mix-blend-mode: screen; }
 
-  #link-wall .lw-filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 32px; padding: 0; list-style: none; }
+  #link-wall .lw-filters { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 0 0 32px; padding: 0; list-style: none; }
   #link-wall .lw-chip {
     font: inherit; font-size: 13px; line-height: 1; padding: 8px 12px; border-radius: 999px;
     border: 1px solid var(--lw-line); background: transparent; color: inherit; cursor: pointer;
