@@ -5,44 +5,67 @@
     {
       "url": "https://www.instagram.com/p/DbuAd2aR7is/",
       "date": "2026-10-12",
-      "tags": ["instagram", "test"],
+      "tags": [
+        "instagram",
+        "test"
+      ],
       "description": "Test post — single Instagram image."
     },
     {
       "url": "https://www.instagram.com/p/DdtWQb_DCRe/",
       "date": "2026-10-10",
-      "tags": ["instagram", "carousel", "test"],
+      "tags": [
+        "instagram",
+        "carousel",
+        "test"
+      ],
       "description": "Test post — Instagram carousel. Swipe through it right on the card."
     },
     {
       "url": "https://www.instagram.com/p/DeJ4B6sFa91/",
       "date": "2026-10-08",
-      "tags": ["instagram", "carousel", "test"],
+      "tags": [
+        "instagram",
+        "carousel",
+        "test"
+      ],
       "description": "Test post — another carousel, to see how mixed heights stack."
     },
     {
       "url": "https://carrierescene.ca",
       "date": "2026-10-06",
-      "tags": ["websites", "test"],
+      "tags": [
+        "websites",
+        "test"
+      ],
       "description": "Test website card, found via SiteInspire."
     },
     {
       "url": "https://www.hedroom.fm",
       "date": "2026-10-04",
-      "tags": ["websites", "test"],
+      "tags": [
+        "websites",
+        "test"
+      ],
       "description": "Test website card, found via SiteInspire."
     },
     {
       "url": "https://www.tiktok.com/@ladydianamay/video/7696156741167336717",
       "date": "2026-10-02",
-      "tags": ["tiktok", "test"],
+      "tags": [
+        "tiktok",
+        "test"
+      ],
       "description": "Test post — vertical TikTok, plays muted in place."
     },
     {
-      "url": "https://www.youtube.com/watch?v=jNQXAC9IVRw",
-      "date": "2026-09-30",
-      "tags": ["youtube", "test"],
-      "description": "Test post — wide YouTube video, plays muted in place."
+      "url": "https://www.youtube.com/watch?v=O_B_Ei5o1k4",
+      "date": "2026-10-13",
+      "tags": [
+        "youtube",
+        "art-direction"
+      ],
+      "description": "Jason Murray on art direction techniques you can use — useful framing for how to talk about the ideas behind your work."
     }
   ]
 }
