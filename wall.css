@@ -8,7 +8,7 @@
     --lw-display: "Archivo", "Helvetica Neue", Arial, sans-serif;
     --lw-gap: 24px;             /* space between columns */
     --lw-row-gap: 48px;         /* space between rows */
-    --lw-title-max: 450px;      /* widest the title image gets */
+    --lw-title-max: 640px;      /* widest the title image gets */
     --lw-min: 280px;            /* narrowest a column gets before the grid drops a column */
     --lw-ink: currentColor;
     --lw-muted: rgba(255,255,255,.6);
