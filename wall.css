@@ -1,0 +1,76 @@
+/* Styles for the Portfolio Inspo page. Edit sizes/colors in the #link-wall block at the top. */
+  /* Page theme — only applies to the page that has the link wall */
+  body:has(#link-wall) { background: #000 !important; color: #fff; }
+  body:has(#link-wall) a:not(#link-wall a), body:has(#link-wall) bodycopy { color: #fff; }
+
+  #link-wall {
+    --lw-mono: "DM Mono", ui-monospace, "SF Mono", Menlo, monospace;
+    --lw-display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+    --lw-gap: 24px;             /* space between columns */
+    --lw-row-gap: 48px;         /* space between rows */
+    --lw-title-max: 900px;      /* widest the title image gets */
+    --lw-min: 280px;            /* narrowest a column gets before the grid drops a column */
+    --lw-ink: currentColor;
+    --lw-muted: rgba(255,255,255,.6);
+    --lw-line: rgba(255,255,255,.35);
+    --lw-fill: rgba(255,255,255,.08);
+    max-width: 1280px; margin: 0 auto; font-family: inherit; color: #fff;
+  }
+  #link-wall * { box-sizing: border-box; }
+
+  #link-wall .lw-title {
+    font-family: var(--lw-display) !important; font-weight: 800 !important; font-stretch: 125%;
+    font-variation-settings: "wdth" 125; text-transform: uppercase; font-style: normal;
+    font-size: clamp(44px, 9vw, 132px) !important; line-height: .88 !important; letter-spacing: -0.015em;
+    margin: 0 0 36px !important; padding: 0; color: #fff !important;
+  }
+  #link-wall .lw-title img, #link-wall .lw-title svg { display: block; width: 100%; max-width: var(--lw-title-max); height: auto; mix-blend-mode: screen; }
+
+  #link-wall .lw-filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 32px; padding: 0; list-style: none; }
+  #link-wall .lw-chip {
+    font: inherit; font-size: 13px; line-height: 1; padding: 8px 12px; border-radius: 999px;
+    border: 1px solid var(--lw-line); background: transparent; color: inherit; cursor: pointer;
+  }
+  #link-wall .lw-chip:hover { border-color: var(--lw-ink); }
+  #link-wall .lw-chip[aria-pressed="true"] { background: #fff; border-color: #fff; color: #000; }
+
+  /* Masonry: tiny grid rows; each card spans as many as its height needs */
+  #link-wall .lw-grid {
+    display: grid; column-gap: var(--lw-gap); grid-auto-rows: 4px; grid-auto-flow: dense;
+    grid-template-columns: repeat(auto-fill, minmax(min(var(--lw-min), 100%), 1fr));
+  }
+  #link-wall .lw-card { min-width: 0; }
+  #link-wall .lw-card[hidden] { display: none; }
+  #link-wall .lw-inner { padding-bottom: var(--lw-row-gap); }
+
+  #link-wall .lw-media { position: relative; overflow: hidden; background: var(--lw-fill); border-radius: 4px; }
+  #link-wall .lw-media:not(.lw-native) iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; pointer-events: none; }
+  #link-wall .lw-media img { display: block; width: 100%; height: auto; }
+  #link-wall .lw-media img:not([src]), #link-wall .lw-media img.lw-loading { aspect-ratio: 16 / 10; }
+
+  /* Instagram + Threads use their own embeds, which size themselves and link to the post natively */
+  #link-wall .lw-native { background: none; border-radius: 0; }
+  #link-wall .lw-native .instagram-media, #link-wall .lw-native iframe.instagram-media {
+    min-width: 0 !important; width: 100% !important; max-width: 100% !important; margin: 0 !important;
+  }
+  #link-wall .lw-native .text-post-media, #link-wall .lw-native iframe { max-width: 100% !important; min-width: 0 !important; margin: 0 !important; }
+  #link-wall .lw-native .lw-placeholder { aspect-ratio: 4 / 5; background: var(--lw-fill); border-radius: 4px; }
+
+  #link-wall .lw-hit { position: absolute; inset: 0; z-index: 2; }
+  #link-wall .lw-hit:focus-visible { outline: 2px solid var(--lw-ink); outline-offset: 3px; }
+  #link-wall .lw-badge {
+    position: absolute; z-index: 3; left: 10px; top: 10px; pointer-events: none;
+    font-size: 11px; letter-spacing: .04em; text-transform: uppercase;
+    background: #fff; color: #000; padding: 5px 8px; border-radius: 3px; font-family: var(--lw-mono);
+  }
+  #link-wall .lw-arrow {
+    position: absolute; z-index: 3; right: 10px; top: 10px; pointer-events: none;
+    width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center;
+    background: #fff; color: #000; font-size: 14px; opacity: 0; transition: opacity .2s;
+  }
+  #link-wall .lw-media:hover .lw-arrow, #link-wall .lw-hit:focus-visible ~ .lw-arrow { opacity: 1; }
+
+  #link-wall .lw-date { display: block; margin: 14px 0 6px; font-family: var(--lw-mono); font-size: 12px; color: var(--lw-muted); text-transform: uppercase; letter-spacing: .02em; }
+  #link-wall .lw-desc { margin: 0 0 12px; font-family: var(--lw-mono); font-size: 12px; line-height: 1.55; }
+  #link-wall .lw-tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; }
+  #link-wall .lw-tags .lw-chip { font-size: 12px; padding: 6px 10px; }
