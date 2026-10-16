@@ -19,10 +19,10 @@
   #link-wall * { box-sizing: border-box; }
 
   #link-wall .lw-title {
-    font-family: var(--lw-display) !important; font-weight: 800 !important; font-stretch: 125%;
-    font-variation-settings: "wdth" 125; text-transform: uppercase; font-style: normal;
-    font-size: clamp(44px, 9vw, 132px) !important; line-height: .88 !important; letter-spacing: -0.015em;
-    margin: 0 0 36px !important; padding: 0; color: #fff !important;
+    font-family: var(--lw-mono) !important; font-weight: 400 !important; font-style: normal;
+    text-transform: none; text-align: center; text-wrap: balance;
+    font-size: clamp(18px, 2.4vw, 28px) !important; line-height: 1.3 !important; letter-spacing: -0.01em;
+    margin: 8px 0 36px !important; padding: 0; color: #fff !important;
   }
   #link-wall .lw-title img, #link-wall .lw-title svg { display: block; width: 100%; max-width: var(--lw-title-max); height: auto; margin: 0 auto; mix-blend-mode: screen; }
 
