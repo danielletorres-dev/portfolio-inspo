@@ -7,47 +7,52 @@
       "date": "2026-10-12",
       "tags": [
         "instagram",
-        "test"
+        "inspiration-sources",
+        "web-design"
       ],
-      "description": "Test post — single Instagram image."
+      "description": "A roundup of niche, tightly curated inspiration sites full of real tech-industry work — a better starting point than endless Pinterest scrolling."
     },
     {
       "url": "https://www.instagram.com/p/DdtWQb_DCRe/",
       "date": "2026-10-10",
       "tags": [
         "instagram",
-        "carousel",
-        "test"
+        "case-study",
+        "portfolio-site",
+        "web-design"
       ],
-      "description": "Test post — Instagram carousel. Swipe through it right on the card."
+      "description": "Malik's site for Yale architecture student Anaelle Blin. The hero is a mind map of connected images, so you see the thinking behind the work, not just the finished projects."
     },
     {
       "url": "https://www.instagram.com/p/DeJ4B6sFa91/",
       "date": "2026-10-08",
       "tags": [
         "instagram",
-        "carousel",
-        "test"
+        "case-study",
+        "branding",
+        "art-direction"
       ],
-      "description": "Test post — another carousel, to see how mixed heights stack."
+      "description": "&Walsh's Bombas refresh. A clear example of presenting a brand system: soft shapes, rounded type, palette and art direction shown working across every sub-brand."
     },
     {
       "url": "https://carrierescene.ca",
       "date": "2026-10-06",
       "tags": [
         "websites",
-        "test"
+        "typography",
+        "campaign"
       ],
-      "description": "Test website card, found via SiteInspire."
+      "description": "Recruitment site for Quebec's independent live-music scene. Warped, poster-like type and a hot pink and black palette bring the energy of the stage to the screen."
     },
     {
       "url": "https://www.hedroom.fm",
       "date": "2026-10-04",
       "tags": [
         "websites",
-        "test"
+        "interaction",
+        "experimental"
       ],
-      "description": "Test website card, found via SiteInspire."
+      "description": "A space for music makers to share their sound. Instead of a standard hero, drifting blurred shapes and a pixelated orb set the mood before any content appears."
     }
   ]
 }
