@@ -48,24 +48,6 @@
         "test"
       ],
       "description": "Test website card, found via SiteInspire."
-    },
-    {
-      "url": "https://www.tiktok.com/@ladydianamay/video/7696156741167336717",
-      "date": "2026-10-02",
-      "tags": [
-        "tiktok",
-        "test"
-      ],
-      "description": "Test post — vertical TikTok, plays muted in place."
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=O_B_Ei5o1k4",
-      "date": "2026-10-13",
-      "tags": [
-        "youtube",
-        "art-direction"
-      ],
-      "description": "Jason Murray on art direction techniques you can use — useful framing for how to talk about the ideas behind your work."
     }
   ]
 }
